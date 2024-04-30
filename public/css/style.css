@@ -75,15 +75,15 @@ body::-webkit-scrollbar-thumb {
     color: #fff;
     display: inline-block;
     text-decoration: none;
-    width: 90px;
+    width: 70px;
     height: 42px;
     line-height: 42px;
-    margin: 25px 5px;
+    margin: 2px 2px;
     font-size: 20px;
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    border: 1px solid rgb(130, 210, 207);
+    font-size: 30px;
 }
 
 @keyframes glow {
