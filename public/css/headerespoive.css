@@ -1,0 +1,36 @@
+@media(max-width:900px){
+    header {
+        padding: 0 30px;
+    }
+
+    .nav-bar {
+        height: 0px;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background-color:  rgb(14, 16, 21);
+    }
+
+    .nav-bar.active {
+        height: 450px;
+    }
+
+    .nav-bar ul {
+        width: fit-content;
+        margin: -52px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+    }
+
+    .nav-bar.active ul {
+        opacity: 1;
+    }
+
+    .nav-bar ul li a {
+        margin-bottom: 20px;
+        margin: 0 -11px;
+        font-size: 15px;
+    }
+}

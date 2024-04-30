@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+}
+
+.scroll-smooth {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(14, 16, 21);
+    opacity: 1;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body::-webkit-scrollbar {
+    width: 9px;     
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(130, 210, 207);   
+    border-radius: 20px;     
+}
+
+.inicio{
+    height: 90vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgb(14, 16, 21)), url(../img/mosaic.png) ;
+    background-size: auto; 
+    background-repeat: repeat;
+}
+.inicio .contenido-banner{
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+    padding-top: 100px;
+}
+.inicio .contenido-banner img{
+    margin-top: 40px;
+    border: 10px solid rgb(130, 210, 207);
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+.inicio .contenido-banner h1{
+    margin-top: 40px;
+    font-size: 42px;
+    font-family: "Mukta", sans-serif;
+    font-style: normal;
+}
+.inicio .contenido-banner h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "Mukta", sans-serif;
+    font-style: normal;
+    text-align: left;
+}
+
+.inicio span {
+    color: rgb(130, 210, 207);
+}
+
+
+.inicio .contenido-banner .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    width: 90px;
+    height: 42px;
+    line-height: 42px;
+    margin: 25px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+.inicio .contenido-banner .redes a:hover{
+    border: 1px solid rgb(130, 210, 207);
+}
+
+@keyframes glow {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 400%;
+    }
+}
+
+.sobremi{
+    color: #fff;
+    padding: 16px 17px;
+}
+.sobremi .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.sobremi h2{
+    font-size: 48px;
+    font-family: "Mukta", sans-serif;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.sobremi .contenido-seccion p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 20px;
+    font-family: "Mukta", sans-serif;
+}
+.sobremi .contenido-seccion p span{
+    color: #685AF9;
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(14, 16, 21);
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+footer p {
+    margin: 10px 0;
+    font-weight: 700;
+    font-family: "Mukta", sans-serif;
+    font-style: normal;
+}
+
+footer i {
+    color: red;
+}
+
+footer a {
+    color: #fcfcfc;
+    text-decoration: none;
+}
