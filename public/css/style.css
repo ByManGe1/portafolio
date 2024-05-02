@@ -179,7 +179,7 @@ footer a {
 
 .contenidoproyecto h2 {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 1.5em;
     color: white;
     font-family: "Mukta", sans-serif;
 }
@@ -188,6 +188,8 @@ footer a {
     margin-top: 10px;
     color: white;
     font-family: "Mukta", sans-serif;
+    font-size: 1em;
+    margin-bottom: 10px;
 }
 
 .contenidoproyecto a {
@@ -219,4 +221,12 @@ footer a {
 
 .etiqueta i {
     margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+    .contenidoproyecto {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
 }
