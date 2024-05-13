@@ -1,0 +1,29 @@
+:root {
+
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        body {
+            background: #fff;
+        }
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        body {
+            background: #fff;
+        }
+    }
+}
+
+[data-theme=light],
+.theme-light {
+
+}
+
+[data-theme=dark],
+.theme-dark {
+
+}
