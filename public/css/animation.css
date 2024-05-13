@@ -1,0 +1,10 @@
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 34.4%;
+        width: 50%;
+    }
+}

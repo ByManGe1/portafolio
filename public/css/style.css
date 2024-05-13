@@ -37,6 +37,7 @@ body::-webkit-scrollbar-thumb {
     background-size: auto; 
     background-repeat: repeat;
 }
+
 .inicio .contenido-banner{
     padding: 30px;
     max-width: 600px;
@@ -44,6 +45,8 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
     border-radius: 40px;
     padding-top: 100px;
+    animation-duration: 3s;
+    animation-name: slidein;
 }
 .inicio .contenido-banner img{
     margin-top: 40px;
