@@ -30,7 +30,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .inicio{
-    height: 90vh;
+    height: 115vh;
     color: #fff;
     display: flex;
     align-items: center;
@@ -45,15 +45,14 @@ body::-webkit-scrollbar-thumb {
     margin: auto;
     text-align: center;
     border-radius: 40px;
-    padding-top: 100px;
     animation-duration: 3s;
     animation-name: slidein;
 }
 .inicio .contenido-banner img{
-    margin-top: 40px;
+    margin-top: 30px;
     border: 10px solid rgb(130, 210, 207);
     display: block;
-    width: 50%;
+    width: 60%;
     margin: auto;
 }
 .inicio .contenido-banner h1{
@@ -206,25 +205,6 @@ footer a {
     border-radius: 5px;
     text-decoration: none;
     font-family: "Mukta", sans-serif;
-}
-
-.contenidoproyecto:hover {
-    transform:scale(1.05);
-}
-
-.etiqueta {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    padding: 5px 10px;
-    background-color: #007bff;
-    color: white;
-    border-radius: 5px;
-    font-family: "Mukta", sans-serif;
-}
-
-.etiqueta i {
-    margin-right: 5px;
 }
 
 @media (max-width: 768px) {
